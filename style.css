@@ -1,0 +1,107 @@
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.header-box {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #b2bec3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.countdown {
+    background-color: #dfe6e9;
+}
+
+.creative {
+    background-color: #f1c40f;
+    color: #2c3e50;
+    font-style: italic;
+}
+
+.portfolio {
+    flex: 1;
+    background-color: #ffeaa7;
+}
+
+.profile-pic-container {
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.color-box {
+    width: 100%;
+    height: 150px;
+    margin: 10px 0;
+    border: 2px solid #2c3e50;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0984e3;
+    color: white;
+}
+
+button:hover {
+    background-color: #74b9ff;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
